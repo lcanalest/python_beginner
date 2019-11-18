@@ -26,3 +26,20 @@ elif operator == "*":
     print(multiplication(num1, num2))
 else:
     print(division(num1, num2))
+
+
+# Mike's solution
+num1 = float(input("Enter one number: "))
+operator = input("Enter the desired operator: ")
+num2 = float(input("Enter another number: "))
+
+if operator == '+':
+    print(num1 + num2)
+elif operator == '-':
+    print(num1 - num2)
+elif operator == '*':
+    print(num1 * num2)
+elif operator == '/':
+    print(num1 / num2)
+else:
+    print("Invalid operator")
