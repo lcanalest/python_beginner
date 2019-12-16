@@ -1,3 +1,5 @@
+print("*** Dictionaries ***")
+
 month_conversions = {
     "Jan": "January",
     "Feb": "February",
@@ -13,4 +15,5 @@ month_conversions = {
     "Dec": "December"
 }
 
+print(month_conversions.get("Aug", "Invalid key"))
 print(month_conversions.get("Jaxn", "Invalid key"))

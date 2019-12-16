@@ -3,6 +3,9 @@ word = "Sabueso"
 for letter in word:
     print(letter)
 
+for letrita in word:
+    print(letrita)
+
 
 friends = ["Hugo", "Paco", "Luis"]
 for friend in friends:
